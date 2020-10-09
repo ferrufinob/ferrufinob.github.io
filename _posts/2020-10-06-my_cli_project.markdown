@@ -16,7 +16,7 @@ For my CLI I created 4 classes:
 
 * CLI class: this will be the user interface
 
-* Course class: I created this class method because a course has many recipes. This class method will hold an @recipes instance variable that will hold related recipe objects, this object will know about the recipe objects but it will not know about the recipe attributes. I initialized it with a name and ref attribute accessor. the ref accessor will be helping me by providing a reference point that will lead me to the recipe page belonging to the course. 
+* Course class: I created this class method because a course has many recipes. This class method will hold an @recipes instance variable that will hold related recipe objects. I initialized it with a name and ref attribute accessor. the ref accessor will be helping me by providing a reference point that will lead me to the recipe page belonging to the course. 
 
 * Recipe class: I gave this class method an course attribute accesor, this will help me link to a course object. Also added @ingredients and @instructions instance variables that will be holding recipe details. I initialized with a name, course and url. 
 
