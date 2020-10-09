@@ -10,7 +10,7 @@ The idea of creating something from nothing was frightening. I was no longer goi
 
 If you decide to scrape a website, a great way to check and see if it's scrapable is to check the /robots.txt file. This [guide](https://varvy.com/robottxt.html) came in handy, it tell's you what can be scraped without getting blocked from the website.
 
-I spent 2 days trying to scrape my website but I later discovered that there were some recipes with completely different class attributes, that was not going to workout. So I searched and searched and finally landed on a different website [Skinnytaste](https://www.skinnytaste.com/). FYI don't build your gem until you have completely decided on a website/project name(I was no longer doing vegetarian recipes), I found out later on that I couldn't change my gemfile name so I had to create a brand new gemfile band transfer all of my coding into that one.
+I spent 2 days trying to scrape my website but I later discovered that there were some recipes with completely different class attributes, that was not going to workout. So I searched and searched and finally landed on a different website [Skinnytaste](https://www.skinnytaste.com/). 
 
 For my CLI I created 4 classes:
 
