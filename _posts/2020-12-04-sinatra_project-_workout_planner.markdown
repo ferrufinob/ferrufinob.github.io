@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Project- Workout Planner"
-date:       2020-12-05 00:03:29 +0000
+date:       2020-12-04 19:03:30 -0500
 permalink:  sinatra_project-_workout_planner
 ---
 
@@ -24,7 +24,7 @@ With separation, our user requests are handled as follows:
 Secondly, I had to set up my tables and models, I decided on two tables: users and workouts
 
 * users would have a name, email and password. For my model association a user would have many workouts
-* workouts would have a date, target area, activity and target type. My for my model association workouts would have many users. For the beginning of my project I had 3 models(an exercise model), as time progressed I hated it. I did not want reps or sets since I do timed workouts and I wanted to also be able to link  a website or video as my workout. I found having two models worked best for me.
+* workouts would have a date, target area, activity and target type. My for my model association workouts would have many users. For the beginning of my project I had 3 models(an exercise model), as time progressed I hated it. I did not want reps or sets since I do timed workouts, I just wanted one textbox area where I could type my activity for that day(something flexible and simple). I found having two models worked best for me.
 
 Third, I had to set up my controllers. I needed to make sure users are able to Create, Read, Update, and Delete their workouts as well as their user account. I had alot of fun playing around with my forms trying to figure out ways to hijack other users workouts and finding ways to prevent that from happening, the last thing we want is someone else being able to access our users information or even worst try to modify it.  
  One of the things that I struggled with the most was figuring out whether to redirect or render a view. 
