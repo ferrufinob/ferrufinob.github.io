@@ -56,7 +56,7 @@ if params[:chocolate_id] && !Chocolate.exists?(params[:chocolate_id])
 end
 ```
 
-> I got stuck in the create action for 2 days, I had to figure out how to not only associate the review with the chocolate but also to be able to carry over that chocolate_id to the create function and also assign that review to a user as well as be able to render my two instance variable if it got rendered new again without loosing the chocolate_id. 
+I got stuck in the create action for 2 days, I had to figure out how to not only associate the review with the chocolate but also to be able to carry over that chocolate_id to the create function and also assign that review to a user as well as be able to render my two instance variable if it got rendered new again without loosing the chocolate_id. 
 I had to find the chocolate and build the review to set that active record association, lastly assign that review a user. It helped that my create method had a chocolate and a reviw variable so loosing the chocolate_id was no longer a problem.
 
 ```
