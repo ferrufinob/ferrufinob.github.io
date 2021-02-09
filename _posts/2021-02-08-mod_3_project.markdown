@@ -33,7 +33,7 @@ you get paths like
 'categories/:category_id/chocolates/new
 ```
 
-forms get tricky with nested resources, to create a new review that is nested under chocolates you will need to provide two instance variables. The path needs the chocolate_id and a template of a new review.  So if you have a nested route remember you have to pass in two models.
+forms get tricky with nested resources, to create a new review that is nested under chocolates you will need to provide two instance variables. The path needs the chocolate_id and a template of a new review.  So if you have a nested route remember you have to pass in two models. The first model @chocolate helps us identify which chocolate we want and the second model @review helps us identify which review out of all reviews is related to that chocolate.
 
 ```
 form_for [@chocolate, @review]
