@@ -19,7 +19,7 @@ resources :chocolates do
          resources :review, shallow: true
 end
 
-resources :categories , only: [:index]
+resources :categories , only: [:index] do
         resources: :chocolates, shallow: true
 	end
 ```
