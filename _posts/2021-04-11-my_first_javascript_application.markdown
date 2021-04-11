@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My First JavaScript Application"
-date:       2021-04-11 23:17:11 +0000
+date:       2021-04-11 19:17:11 -0400
 permalink:  my_first_javascript_application
 ---
 
@@ -99,8 +99,10 @@ findCard.renderUpdatedCard(card.data.attributes);
 ```
 
 Although a small application, I felt super accomplished once I got it working. With 6 weeks of JavaScript under my belt, this is only the beginning. I am nowhere near where I’d like to be with my JavaScript knowledge, there is still so much to learn!!!
-A great resource that really helped me understand fetch requests and promises: https://www.youtube.com/user/shiffman
-A great playlist that helps explain how code is executed under the hood in Javascript: https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP
+
+[A great resource that really helped me understand fetch requests and promises: ](https://www.youtube.com/user/shiffman)
+
+[A great playlist that helps explain how code is executed under the hood in Javascript: ](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 
 Short Demo:
 
