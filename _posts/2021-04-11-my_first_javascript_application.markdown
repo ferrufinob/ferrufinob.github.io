@@ -8,6 +8,7 @@ permalink:  my_first_javascript_application
 I recently built my first web application using JavaScript for Flatiron School. Having never touched JavaScript and hearing how hard it is to learn made me nervous when it was time to start module 4. For this application, I used Rails API backend and JavaScript for my front end which utilized classes and asynchronously handled all interactions between backend and frontend.
 
 The app I designed is a flashcard application that displays deck names of all the modules I have completed so far at Flatiron School and others I want to start learning (Ruby, Rails, JavaScript, Data Structures, and Algorithms). I had a really hard time deciding what to build, so I decided to build an application for something that I do often: write flashcards.
+
 **The Backend**
 
 ![](https://miro.medium.com/max/4800/1*v-sqGV8FAYKK1XAPVy1aoQ.png)
