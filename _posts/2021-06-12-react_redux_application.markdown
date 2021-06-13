@@ -10,6 +10,11 @@ For the final project at Flatiron School, we were instructed to build an applica
 One of my favorite websites is Pinterest, I could spend hours browsing, which inspired me to build my own Pinterest-like web application. While I do not have all of the amazing features Pinterest has, I am very happy with how my project turned out during my two-week build and plan on continuing to work on more features as my React knowledge expands(excited to get into React Hooks as we didn’t get to explore it during the curriculum).
 One very important step that I made sure to not skip this time around was wireframing and planning all of my model associations. It helped greatly in deciding what containers, components, and routes would be needed.
 
+<details>
+<summary>Wireframe</summary>
+![](https://miro.medium.com/max/1400/0*5fK1xENbalzF28vk)
+</details>
+
 Models:
 
 - User: a user can log in, signup, and logout
